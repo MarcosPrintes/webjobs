@@ -41,11 +41,18 @@ export default {
   from{ opacity: 0; }
   to { opacity: 1; }
 }
+@-webkit-keyframes x {
+  from{ opacity: 0; }
+  to { opacity: 1; }
+}
 .card-link{
   opacity: 0;
   animation-name: x;
   animation-duration: 3s;
   animation-fill-mode: forwards;
+  -webkit-animation: x;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
 }
 .ant-card{
   margin: 0 auto 30px;

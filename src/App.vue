@@ -7,7 +7,7 @@
         type="folder-open" />
      </router-link>
 
-      <a href="../assets/cv_marcospaulo.pdf" target="_blank" download>
+      <a href="../cv_marcospaulo.pdf" target="_blank" download>
 
         <a-icon 
         :style="{'font-size': '30px'}"
