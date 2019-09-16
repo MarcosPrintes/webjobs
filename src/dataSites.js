@@ -6,9 +6,9 @@ const data = [
   {name:'Dra. Lucyana Santiago', delay:'1.9s',  img:'lucyana.png',    link:'http://lucyanasantiago.com.br/',    id: 5},
   {name:'Pediatras & Neo',       delay:'2.1s',  img:'pediatras.png',  link:'https://pediatraseneo.com.br/',     id: 6},
   {name:'Computron Cursos',      delay:'2.4s',  img:'computron.png',  link:'http://computroncursos.com.br/',    id: 7},
-  {name:'VisoClin',              delay:'2.4s',  img:'viso.png',       link:'http://clinicavisoclin.com.br/',    id: 7},
-  {name:'Oncológica Cirurgiões', delay:'2.4s',  img:'onco.png',       link:'http://oncologicamanaus.com.br/',    id: 7},
-  {name:'Dr. Flávio Antunes',    delay:'2.6s',  img:'flavio.png',       link:'https://drflavioantunes.com.br/',    id: 7},
+  {name:'VisoClin',              delay:'2.4s',  img:'viso.png',       link:'http://clinicavisoclin.com.br/',    id: 8},
+  {name:'Oncológica Cirurgiões', delay:'2.4s',  img:'onco.png',       link:'http://oncologicamanaus.com.br/',    id: 9},
+  {name:'Dr. Flávio Antunes',    delay:'2.6s',  img:'flavio.png',       link:'https://drflavioantunes.com.br/',    id: 10},
 ]
 
 export default data

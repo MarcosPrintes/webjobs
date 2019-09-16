@@ -6,12 +6,12 @@ set -e
 # build
 npm run build
 
-# # navigate into the build output directory
-# cd dist
+# navigate into the build output directory
+cd dist
 
-# git init
-git add .
+git init
+git add -A
 git commit -m 'deploy'
 
 git push -f https://github.com/MarcosPrintes/webjobs.git                                 master:gh-pages
-cd -
+cd - 

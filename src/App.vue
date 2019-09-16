@@ -7,18 +7,26 @@
         type="folder-open" />
      </router-link>
 
-      <a href="../cv_marcospaulo.pdf" target="_blank" download>
+      <a :href="pdf" target="_blank">
 
         <a-icon 
         :style="{'font-size': '30px'}"
         type="download" />
-      </a>
+      </a> 
   
     </div>
     <router-view/>
   </div>
 </template>
-
+<script>
+export default {
+  data(){
+    return{
+      pdf: require('./assets/cvmarcospaulo.pdf')
+    }
+  }
+}
+</script>
 <style lang="scss">
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
